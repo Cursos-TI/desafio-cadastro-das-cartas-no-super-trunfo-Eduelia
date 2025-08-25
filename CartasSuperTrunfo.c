@@ -7,6 +7,9 @@
 //Teste Eduardo felipe elias
 
 int main(){
+
+    printf("Bem vindo ao Super Trunfo!\n");
+    printf("\n");
     // carta 1
     char estado1[20];
     char codigo1[20];
