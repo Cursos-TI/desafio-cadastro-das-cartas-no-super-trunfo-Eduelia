@@ -29,13 +29,7 @@ int main(){
     float pib2;
     int pontoturistico2;
 
-    //adicional
-    float densidade1 = populacao1 / area1;
-    float densidade2 = populacao2 / area2;
-
-    float PIBpercapita1 = pib1 / populacao1;
-    float PIBpercapita2 = pib2 / populacao2;
-
+   
 
     //dados primeira carta
 
@@ -56,7 +50,7 @@ int main(){
     printf("Informe a Área (em km²):");
     scanf("%f", &area1);
 
-    printf("Informe o PIB em (Bilhoes):");
+    printf("Informe o PIB (em Bilhoes):");
     scanf("%f", &pib1);
 
     printf("Informe o numero de pontos turistico:");
@@ -83,13 +77,20 @@ int main(){
     printf("Informe a Área (em km²):");
     scanf("%f", &area2);
 
-    printf("Informe o PIB em (Bilhoes):");
+    printf("Informe o PIB (em Bilhoes):");
     scanf("%f", &pib2);
 
     printf("Informe o numero de pontos turistico:");
     scanf("%d", &pontoturistico2);
 
     printf("\n");
+
+     //adicional depois de gravada as informaçoes pois estava la em cima e nao estava imprimindo
+    float densidade1 = populacao1 / area1;
+    float densidade2 = populacao2 / area2;
+
+    float PIBpercapita1 = (pib1 *1000000000) / populacao1;
+    float PIBpercapita2 = (pib2 *1000000000) / populacao2;
 
     //ixibiçao de dados carta 1
     printf("Carta: 1\n");
