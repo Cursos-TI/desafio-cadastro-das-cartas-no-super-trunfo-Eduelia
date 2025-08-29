@@ -91,7 +91,8 @@ int main(){
 
     float PIBpercapita1 = (pib1 *1000000000) / populacao1;
     float PIBpercapita2 = (pib2 *1000000000) / populacao2;
-
+    
+    printf("***** Informaçoes das cartas ***** ");
     //ixibiçao de dados carta 1
     printf("Carta: 1\n");
     printf("Estado: %s\n", estado1);
@@ -102,7 +103,7 @@ int main(){
     printf("PIB: %f Bilhões de reais\n", pib1);
     printf("Ponto turisticos: %d\n", pontoturistico1);
     printf("Densidade populaçao: %2.f\n", densidade1);
-    printf("PIB per capita: %.f\n", PIBpercapita1);
+    printf("PIB per capita: %.2f\n", PIBpercapita1);
 
     printf("\n");
     //ixibiçao de dados carta 1
@@ -115,7 +116,7 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontoturistico2);
     printf("Densidade populaçao: %2.f\n", densidade2);
-    printf("PIB per capita: %.f\n", PIBpercapita2);
+    printf("PIB per capita: %.2f\n", PIBpercapita2);
 
     printf("\n");
 
